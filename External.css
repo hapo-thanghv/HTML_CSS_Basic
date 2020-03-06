@@ -1,0 +1,82 @@
+p {
+	color:black; font-size: 14px;}
+    	.center {display: block; margin: 0 auto;}
+    	#button-go, #button-back {border: solid 1px black;}
+body {
+	background-color: grey;}
+h1 {
+	color: red;
+     	padding: 60px;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+
+    padding: 0px;
+    width: 1320px;
+    min-height: 320px;
+    margin: auto;}
+
+.containerflexbyrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+
+    padding: 5px;
+    background: #9C27B0;
+    min-width: 320px;
+    height: 480px;
+    margin: auto;
+}
+
+.banner {
+    width: 1320px;
+    height: 600px;
+    background-image: url(../BTHTML-CSS/image/banner.png);
+    background-size: contain;}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+
+    padding: 20px;
+    width: 1320px;
+    min-height: 320px;
+    margin: auto;}
+
+.banner-button12 {
+    padding: 20px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+
+    padding: 0px;
+    margin: auto;
+}
+.banner-item {
+    padding: 20px;
+    margin: 1px;
+    color: green;
+    font-weight: bold;}
+
+
+
