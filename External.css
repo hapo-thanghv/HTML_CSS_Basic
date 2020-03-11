@@ -476,7 +476,7 @@ li {
   margin: auto;
 }
 
-.lppc-moreInorm {
+.lppc-moreInform {
   padding: 0px;
   width: 1366px;
   color: rgb(139, 195,74);
@@ -484,7 +484,7 @@ li {
   max-height: 210px;
 }
 
-.moreInorm-container {
+.moreInform-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -495,7 +495,7 @@ li {
   margin: auto;
 }
 
-.moreInorm-column {
+.moreInform-column {
   padding: 0px;
   max-width: 370px;
   height: 200px;
@@ -515,7 +515,7 @@ li {
   margin: auto;
 }
 
-.moreInorm-text {
+.moreInform-text {
   padding: 0px;
   width: 80px;
   height: 40px;
