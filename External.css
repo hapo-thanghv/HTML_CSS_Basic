@@ -157,7 +157,7 @@ li {
 }
 
 
-.body-item {
+.body-part-text {
   padding: 20px;
   width: 400px;
   height: 40px;
@@ -166,14 +166,14 @@ li {
   align-self: center;
 }
 
-.lppc-lt {
+.lppc-learnt-today{
   width: 1366px;
   height: 450px;
   background-color: white;
   font-weight: bold;
 }
 
-.lt-container {
+.learnt-today-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -184,20 +184,20 @@ li {
   margin: auto;
 }
 
-.lt-interfaceHapoErp {
+.learnt-today-interface {
   width: 555px;
   height: 371px;
   background-image: url(../BTHTML-CSS/image/til.png);
   background-size: contain;
 }
 
-.lt-doc {
+.learnt-today-doc {
   width: 555px;
   height: 371px;
   font-weight: bold;
 }
 
-.lt-doc-container {
+.learnt-today-doc-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -250,7 +250,7 @@ li {
   background-size: contain;
 }
 
-.lppc-toolsIntro {
+.lppc-tools {
   width: 1366px;
   height: 160px;
   padding: 10px;
@@ -259,7 +259,7 @@ li {
   font-weight: bold;
 }
 
-.toolsIntro-container {
+.tools-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -362,15 +362,14 @@ li {
   margin: auto;
 }
 
-
-.lppc-ourCus {
+.lppc-partner {
   width: 1366px;
   height: 355px;
   background-image: url(../BTHTML-CSS/image/rectangle3.png);
   background-size: contain;
 }
 
-.ourCus-container {
+.partner-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -383,8 +382,8 @@ li {
   margin: auto;
 }
 
-.ourCus-text-title {
-  padding: 0px;
+.partner-title-text {
+  padding: 0;
   width: 400px;
   max-height: 60px;
   font-size: 48px;
@@ -393,36 +392,36 @@ li {
   align-self: center;
 }
 
-.ourCus-icon {
-  padding: 0px;
+.partner-avt {
+  padding: 0;
   width: 1366px;
   max-height: 135px;
   align-self: flex-start;
 }
 
-.ourCus-doc {
-  padding: 0px;
+.partner-doc {
+  padding: 0;
   width: 1360px;
   max-height: 120px;
 }
 
 
-.ourCus-item-quotationMarks99 {
-  padding: 0px;
+.partner-mark-end {
+  padding: 0;
   color: grey;
   font-size: 28px;
   align-self: flex-end;
 }
 
-.ourCus-item-quotationMarks66 {
-  padding: 0px;
+.partner-mark-start {
+  padding: 0;
   color: grey;
   font-size: 28px;
   align-self: flex-start;
 }
 
-.ourCus-text-comment {
-  padding: 0px;
+.partner-comment-text {
+  padding: 0;
   width: 500px;
   max-height: 80px;
   color: white;
@@ -434,20 +433,20 @@ li {
   margin-right: 30px;
 }
 
-.lppc-pj {
+.lppc-project {
   width: 1366px;
   height: 450px;
   background-color: white;
   font-weight: bold;
 }
 
-.pj-doc {
+.project-doc {
   width: 497px;
   height: 388px;
   font-weight: bold;
 }
 
-.pj-container {
+.project-container {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
@@ -458,14 +457,14 @@ li {
   margin: auto;
 }
 
-.pj-interface {
+.project-interface {
   width: 497px;
   height: 388px;
   background-image: url(../BTHTML-CSS/image/members.png);
   background-size: contain;
 }
 
-.pj-doc-container {
+.project-doc-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -476,15 +475,15 @@ li {
   margin: auto;
 }
 
-.lppc-moreInform {
-  padding: 0px;
+.lppc-information {
+  padding: 0;
   width: 1366px;
   color: rgb(139, 195,74);
   background-color: rgb(57,71,78);
   max-height: 210px;
 }
 
-.moreInform-container {
+.information-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -495,8 +494,8 @@ li {
   margin: auto;
 }
 
-.moreInform-column {
-  padding: 0px;
+.information-column {
+  padding: 0;
   max-width: 370px;
   height: 200px;
   color: white;
@@ -515,8 +514,8 @@ li {
   margin: auto;
 }
 
-.moreInform-text {
-  padding: 0px;
+.information-text {
+  padding: 0;
   width: 80px;
   height: 40px;
   font-size: 12px;
