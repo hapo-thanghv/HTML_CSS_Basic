@@ -49,10 +49,10 @@ li {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
+  align-items: center;
+  align-content: center;
   width: 1366px;
-  min-height: 320px;
+  min-height: 600px;
   padding: 10px;
   margin: auto;
 }
@@ -117,13 +117,12 @@ li {
   font-size: 16px;
   border-radius: 40px;
   box-shadow: 2px 2px 10px black;
-  align-self: 
 }
 
 .banner-advantages {
-  padding: 20px;
+  padding: 10px;
   width: 1366px;
-  max-height: 60px;
+  max-height: 100px;
   margin: 0;
   font-weight: bold;
 }
@@ -135,20 +134,59 @@ li {
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  padding: 50px;
-  margin: auto;
+  padding-top: 20px;
 }
 
 .advantages {
-  padding: 0;
+  padding: 10px;
   width: 240px;
-  height: 40px;
+  height: 140px;
   font-size: 36px;
   font-weight: bold;
   align-self: center;
 }
 
+.ti-gift {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 70px 220px 0 0;
+}
+
+.ti-alarm-clock {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 70px 0 0 0;
+}
+
+.ti-thumb-up {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 70px 0 0 220px;
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  max-height: 60px;
+}
+
 .lppc-webname {
+  width: 190px;
+  height: 46px;
+  align-self: flex-start;
+  background-image: url(../BTHTML-CSS/image/hapoErp_2@2x.png);
+  background-size: contain;
+  margin-top: 80px;
+}
+
+.lppc-webname-contrast {
   width: 190px;
   height: 46px;
   align-self: flex-start;
@@ -170,6 +208,7 @@ li {
   height: 450px;
   background-color: white;
   font-weight: bold;
+  margin: auto;
 }
 
 .learnt-today-container {
@@ -194,6 +233,13 @@ li {
   width: 555px;
   height: 371px;
   font-weight: bold;
+}
+
+.ti-bookmark-alt {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
 }
 
 .learnt-today-doc-container {
@@ -231,6 +277,13 @@ li {
   font-weight: bold;
 }
 
+.ti-write {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
 .report-doc-container {
   display: flex;
   flex-direction: column;
@@ -251,7 +304,7 @@ li {
 
 .lppc-tools {
   width: 1366px;
-  height: 160px;
+  height: 300px;
   padding: 10px;
   background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));
   color: white;
@@ -272,9 +325,50 @@ li {
 .tools {
   padding: 20px;
   width: 120px;
-  height: 20px;   
+  height: 160px;   
   color: white;
   font-weight: bold;
+}
+
+.tools-border-top {
+  width: 100px;
+  height: 100px; 
+  border-radius: 100%;
+  border: 2px solid white;
+  color: white;
+  align-self: center;
+}
+
+.tools-border-bottom {
+  width: 40px;
+  height: 40px; 
+  border-radius: 100%;
+  background-color: rgb(139, 195, 74);
+  border: 2px solid white;
+  align-self: center;
+  color: white;
+  margin-left: 26px;
+  margin-top: -25px;
+}
+
+.tools-num {
+  color: white;
+  size: 24px;
+  padding: 15px;
+}
+
+.tools-text {
+  color: white;
+  size: 55px;
+  padding: 55px;
+  size: 16px;
+}
+
+.ti-layout-list-thums-alt {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
 }
 
 .lppc-mem {
@@ -288,6 +382,13 @@ li {
   width: 497px;
   height: 388px;
   font-weight: bold;
+}
+
+.ti-user {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
 }
 
 .mem-container {
@@ -341,6 +442,13 @@ li {
   width: 555px;
   height: 354px;
   font-weight: bold;
+}
+
+.ti-face-smile {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
 }
 
 .cus-interface {
@@ -444,6 +552,13 @@ li {
   font-weight: bold;
 }
 
+.ti-calendar {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
 .project-container {
   display: flex;
   flex-direction: row-reverse;
@@ -508,7 +623,7 @@ li {
   justify-content: space-between;
   align-items: stretch;
   align-content: flex-start;
-  padding: 10px;
+  padding: 5px;
   margin: auto;
 }
 
@@ -520,4 +635,32 @@ li {
   align-self: flex-start;
   color: rgb(139,195,74);
   font-weight: bold;
+}
+
+.ti-facebook {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
+}
+
+.ti-youtube {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
+}
+
+.ti-linkedin {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
+}
+
+.ti-twitter-alt {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
 }
