@@ -1,0 +1,712 @@
+p {
+  color:black; 
+  font-size: 13px;
+}
+
+li {
+  list-style: none;
+  color: white;
+  margin: 5px 30px;
+  display: inline-block;
+  font-size: 10px;
+  transform: .5s;
+  padding: 1px;
+  border: 0 solid #fff;
+  border-radius: 100%;
+}
+
+.body-text-sologan {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.banner-text-sologan {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lppc-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+  width: 1366px;
+  min-height: 320px;
+  margin: auto;
+}
+
+.lppc-banner {
+  width: 1366px;
+  height: 620px;
+  background-image: url(../BTHTML-CSS/image/banner.png);
+  background-size: contain;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  width: 1366px;
+  min-height: 600px;
+  padding: 10px;
+  margin: auto;
+}
+
+.banner-button {
+  width: 1366px;
+  max-height: 60px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.banner-button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: stretch;
+  padding: 0;
+  margin: auto;
+}
+
+.banner-about-us-button {
+  padding: 10px;
+  width: 80px;
+  height: 15px;
+  font-size: 12px;
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.banner-sign-in-button {
+  padding: 10px;
+  width: 60px;
+  height: 15px;
+  font-size: 12px;
+  align-self: flex-start;
+  color: rgb(139,195,74);
+  font-weight: bold;
+  border-radius: 20px;
+  border: rgb(139,195,74) 2px solid;
+}
+
+.banner-start-button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 40px;
+  margin: auto;
+}
+
+.start-button {
+  padding: 20px;
+  width: 140px;
+  height: 20px;
+  background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));   
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.banner-advantages {
+  padding: 10px;
+  width: 1366px;
+  max-height: 100px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.banner-advantages-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding-top: 20px;
+}
+
+.advantages {
+  padding: 10px;
+  width: 240px;
+  height: 140px;
+  font-size: 36px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.ti-gift {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 70px 220px 0 0;
+}
+
+.ti-alarm-clock {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 70px 0 0 0;
+}
+
+.ti-thumb-up {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 70px 0 0 220px;
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  max-height: 60px;
+}
+
+.lppc-webname {
+  width: 190px;
+  height: 46px;
+  align-self: flex-start;
+  background-image: url(../BTHTML-CSS/image/hapoErp_2@2x.png);
+  background-size: contain;
+  margin-top: 80px;
+}
+
+.lppc-webname-contrast {
+  width: 190px;
+  height: 46px;
+  align-self: flex-start;
+  background-image: url(../BTHTML-CSS/image/hapoErp_2@2x.png);
+  background-size: contain;
+}
+
+.body-part-text {
+  padding: 20px;
+  width: 400px;
+  height: 40px;
+  font-size: 48px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.lppc-learnt-today{
+  width: 1366px;
+  height: 450px;
+  background-color: white;
+  font-weight: bold;
+  margin: auto;
+}
+
+.learnt-today-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.learnt-today-interface {
+  width: 555px;
+  height: 371px;
+  background-image: url(../BTHTML-CSS/image/til.png);
+  background-size: contain;
+}
+
+.learnt-today-doc {
+  width: 555px;
+  height: 371px;
+  font-weight: bold;
+}
+
+.ti-bookmark-alt {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
+.learnt-today-doc-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 10px;
+  margin: auto;
+}
+
+.lppc-report {
+  width: 1366px;
+  height: 450px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.report-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.report-doc {
+  width: 555px;
+  height: 354px;
+  font-weight: bold;
+}
+
+.ti-write {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
+.report-doc-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 10px;
+  margin: auto;
+}
+
+.report-interface {
+  width: 555px;
+  height: 354px;
+  background-image: url(../BTHTML-CSS/image/dailyReport.png);
+  background-size: contain;
+}
+
+.lppc-tools {
+  width: 1366px;
+  height: 300px;
+  padding: 10px;
+  background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));
+  color: white;
+  font-weight: bold;
+}
+
+.tools-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.tools {
+  padding: 20px;
+  width: 120px;
+  height: 160px;   
+  color: white;
+  font-weight: bold;
+}
+
+.tools-border-top {
+  width: 100px;
+  height: 100px; 
+  border-radius: 100%;
+  border: 2px solid white;
+  color: white;
+  align-self: center;
+}
+
+.tools-border-bottom {
+  width: 40px;
+  height: 40px; 
+  border-radius: 100%;
+  background-color: rgb(139, 195, 74);
+  border: 2px solid white;
+  align-self: center;
+  color: white;
+  margin-left: 26px;
+  margin-top: -25px;
+}
+
+.tools-num {
+  color: white;
+  size: 24px;
+  padding: 15px;
+}
+
+.tools-text {
+  color: white;
+  padding: 55px;
+  size: 16px;
+}
+
+.ti-layout-list-thums-alt {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
+.lppc-mem {
+  width: 1366px;
+  height: 450px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.mem-doc {
+  width: 497px;
+  height: 388px;
+  font-weight: bold;
+}
+
+.ti-user {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
+.mem-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.mem-diagrph {
+  width: 497px;
+  height: 388px;
+  background-image: url(../BTHTML-CSS/image/members.png);
+  background-size: contain;
+}
+
+.mem-doc-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: flex-end;
+  padding: 0;
+  margin: auto;
+}
+
+.lppc-cus {
+  width: 1366px;
+  height: 450px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.cus-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.cus-doc {
+  width: 555px;
+  height: 354px;
+  font-weight: bold;
+}
+
+.ti-face-smile {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
+.cus-interface {
+  width: 555px;
+  height: 354px;
+  background-image: url(../BTHTML-CSS/image/dailyReport.png);
+  background-size: contain;
+}
+
+.cus-doc-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 10px;
+  margin: auto;
+}
+
+.lppc-partner {
+  width: 1366px;
+  height: 355px;
+  background-image: url(../BTHTML-CSS/image/rectangle3.png);
+  background-size: contain;
+}
+
+.partner-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  padding: 20px;
+  width: 1366px;
+  min-height: 320px;
+  margin: auto;
+}
+
+.partner-title-text {
+  padding: 0;
+  width: 400px;
+  max-height: 60px;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  align-self: center;
+}
+
+.partner-avt {
+  padding: 0;
+  width: 1366px;
+  max-height: 135px;
+  align-self: flex-start;
+}
+
+.avt-text {
+  color: white;
+  size: 13px;
+  padding: 10px;
+  width: 60px;
+  height: 30px;
+}
+
+.avt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 0;
+  margin: auto;
+}
+
+.avt-column-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  padding-left: 40px;
+  margin: auto;
+}
+
+.partner-doc {
+  padding: 0;
+  width: 1360px;
+  max-height: 120px;
+}
+
+.partner-mark-end {
+  padding: 0;
+  color: grey;
+  font-size:28px;
+  align-self: flex-end;
+}
+
+.partner-mark-start {
+  padding: 0;
+  color: grey;
+  font-size: 28px;
+  align-self: flex-start;
+}
+
+.partner-comment-text {
+  padding: 0;
+  width: 570px;
+  max-height: 80px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  align-self: center;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.lppc-project {
+  width: 1360px;
+  height: 450px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.project-doc {
+  width: 497px;
+  height: 388px;
+  font-weight: bold;
+}
+
+.ti-calendar {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  padding: 25px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.project-interface {
+  width: 497px;
+  height: 388px;
+  background-image: url(../BTHTML-CSS/image/members.png);
+  background-size: contain;
+}
+
+.project-doc-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 10px;
+  margin: auto;
+}
+
+.lppc-information {
+  padding: 0;
+  width: 1360px;
+  color: rgb(139, 195,74);
+  background-color: rgb(57,71,78);
+  max-height: 210px;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 40px;
+  margin: auto;
+}
+
+.information-column {
+  padding: 10px;
+  max-width: 370px;
+  height: 200px;
+  color: white;
+  font-size: 14px;
+  align-self: center;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 5px;
+  margin: auto;
+}
+
+.information-text {
+  padding: 0;
+  width: 80px;
+  height: 40px;
+  font-size: 12px;
+  align-self: flex-start;
+  color: rgb(139,195,74);
+  font-weight: bold;
+}
+
+.column-connect-with-us {
+  padding: 0;
+  max-width: 370px;
+  height: 200px;
+  color: white;
+  font-size: 14px;
+  margin-top: 50px
+}
+
+.ti-facebook {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
+  padding-top: 95px;
+  padding-left: 20px;
+}
+
+.ti-youtube {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
+  padding-top: 95px;
+  padding-left: 10px;
+}
+
+.ti-linkedin {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
+  padding-top: 95px;
+  padding-left: 10px;
+}
+
+.ti-twitter-alt {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  color: rgb(139,195,74);
+  padding-top: 95px;
+  padding-left: 10px;
+}
