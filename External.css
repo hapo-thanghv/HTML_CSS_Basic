@@ -359,6 +359,8 @@ li {
 
 .tools-text {
   color: white;
+  width: 90px;
+  height: 40px;
   padding: 55px;
   size: 16px;
 }
