@@ -546,14 +546,14 @@ li {
 .partner-mark-end {
   padding: 0;
   color: grey;
-  font-size:28px;
+  font-size:36px;
   align-self: flex-end;
 }
 
 .partner-mark-start {
   padding: 0;
   color: grey;
-  font-size: 28px;
+  font-size: 36px;
   align-self: flex-start;
 }
 
@@ -566,8 +566,8 @@ li {
   font-weight: bold;
   align-self: center;
   text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .lppc-project {
