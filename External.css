@@ -15,6 +15,10 @@ li {
   border-radius: 100%;
 }
 
+.left-alignment {
+  margin-left: 15px;
+}
+
 .body-text-sologan {
   font-size: 14px;
   font-weight: bold;
