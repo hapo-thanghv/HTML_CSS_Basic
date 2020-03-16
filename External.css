@@ -15,7 +15,7 @@ li {
   border-radius: 100%;
 }
 
-.left-alignment {
+.para-left-alignment {
   margin-left: 15px;
 }
 
@@ -659,7 +659,7 @@ li {
   align-items: stretch;
   align-content: flex-start;
   padding: 5px;
-  margin: auto;
+  margin-top:  25px;
 }
 
 .information-text {
@@ -670,6 +670,10 @@ li {
   align-self: flex-start;
   color: #8BC34A;
   font-weight: bold;
+}
+
+.information-text-top-alignment {
+  margin-top: 10px;
 }
 
 .column-connect-with-us {
