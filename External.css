@@ -11,7 +11,7 @@ li {
   font-size: 10px;
   transform: .5s;
   padding: 1px;
-  border: 0 solid #fff;
+  border: 0;
   border-radius: 100%;
 }
 
@@ -90,10 +90,10 @@ li {
   height: 15px;
   font-size: 12px;
   align-self: flex-start;
-  color: rgb(139,195,74);
+  color: #8BC34A;
   font-weight: bold;
   border-radius: 20px;
-  border: rgb(139,195,74) 2px solid;
+  border: 2px solid #8BC34A;
 }
 
 .banner-start-button {
@@ -111,7 +111,7 @@ li {
   padding: 20px;
   width: 140px;
   height: 20px;
-  background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));   
+  background: linear-gradient(to right,#429321, #B4EC51);   
   color: white;
   font-weight: bold;
   font-size: 16px;
@@ -306,7 +306,7 @@ li {
   width: 1366px;
   height: 300px;
   padding: 10px;
-  background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));
+  background: linear-gradient(to right,#429321, #B4EC51);
   color: white;
   font-weight: bold;
 }
@@ -343,7 +343,7 @@ li {
   width: 40px;
   height: 40px; 
   border-radius: 100%;
-  background-color: rgb(139, 195, 74);
+  background-color: #8BC34A;
   border: 2px solid white;
   align-self: center;
   color: white;
@@ -622,8 +622,8 @@ li {
 .lppc-information {
   padding: 0;
   width: 1360px;
-  color: rgb(139, 195,74);
-  background-color: rgb(57,71,78);
+  color: #8BC34A;
+  background-color: #39474E;
   max-height: 210px;
 }
 
@@ -664,7 +664,7 @@ li {
   height: 40px;
   font-size: 12px;
   align-self: flex-start;
-  color: rgb(139,195,74);
+  color: #8BC34A;
   font-weight: bold;
 }
 
@@ -681,7 +681,7 @@ li {
   width: 15px;
   height: 15px;
   font-size: 15px;
-  color: rgb(139,195,74);
+  color: #8BC34A;
   padding-top: 95px;
   padding-left: 20px;
 }
@@ -690,7 +690,7 @@ li {
   width: 15px;
   height: 15px;
   font-size: 15px;
-  color: rgb(139,195,74);
+  color: #8BC34A;
   padding-top: 95px;
   padding-left: 10px;
 }
@@ -699,7 +699,7 @@ li {
   width: 15px;
   height: 15px;
   font-size: 15px;
-  color: rgb(139,195,74);
+  color: #8BC34A;
   padding-top: 95px;
   padding-left: 10px;
 }
@@ -708,7 +708,7 @@ li {
   width: 15px;
   height: 15px;
   font-size: 15px;
-  color: rgb(139,195,74);
+  color: #8BC34A;
   padding-top: 95px;
   padding-left: 10px;
 }
