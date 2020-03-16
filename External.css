@@ -29,6 +29,25 @@ li {
   font-weight: bold;
 }
 
+.container-by-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  margin: auto;
+}
+
+.container-by-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
 .lppc-container {
   display: flex;
   flex-direction: column;
@@ -101,14 +120,7 @@ li {
 }
 
 .banner-start-button {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
   padding: 40px;
-  margin: auto;
 }
 
 .start-button {
@@ -132,12 +144,6 @@ li {
 }
 
 .banner-advantages-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
   padding-top: 20px;
 }
 
@@ -216,14 +222,7 @@ li {
 }
 
 .learnt-today-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
   padding: 50px;
-  margin: auto;
 }
 
 .learnt-today-interface {
@@ -247,12 +246,6 @@ li {
 }
 
 .learnt-today-doc-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: flex-start;
   padding: 10px;
   margin: auto;
 }
@@ -262,17 +255,6 @@ li {
   height: 450px;
   background-color: white;
   font-weight: bold;
-}
-
-.report-container {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
-  padding: 50px;
-  margin: auto;
 }
 
 .report-doc {
@@ -286,15 +268,10 @@ li {
   height: 60px;
   font-size: 48px;
   padding: 25px;
+  align-self: center;
 }
 
 .report-doc-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: flex-start;
   padding: 10px;
   margin: auto;
 }
@@ -316,14 +293,7 @@ li {
 }
 
 .tools-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
   padding: 50px;
-  margin: auto;
 }
 
 .tools {
@@ -352,7 +322,7 @@ li {
   align-self: center;
   color: white;
   margin-left: 26px;
-  margin-top: -25px;
+  margin-top: 5px;
 }
 
 .tools-num {
@@ -365,11 +335,15 @@ li {
   color: white;
   width: 90px;
   height: 40px;
-  padding: 55px;
+  padding-top: 30px;
   size: 16px;
 }
 
-.ti-layout-list-thums-alt {
+.tools-icon-detail {
+  padding-top: 20px;
+}
+
+.ti-layout-list-thumb-alt {
   width: 460px;
   height: 60px;
   font-size: 48px;
@@ -396,17 +370,6 @@ li {
   padding: 25px;
 }
 
-.mem-container {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
-  padding: 50px;
-  margin: auto;
-}
-
 .mem-diagrph {
   width: 497px;
   height: 388px;
@@ -415,12 +378,6 @@ li {
 }
 
 .mem-doc-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  align-content: flex-end;
   padding: 0;
   margin: auto;
 }
@@ -433,14 +390,7 @@ li {
 }
 
 .cus-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
   padding: 50px;
-  margin: auto;
 }
 
 .cus-doc {
@@ -464,12 +414,6 @@ li {
 }
 
 .cus-doc-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: flex-start;
   padding: 10px;
   margin: auto;
 }
@@ -520,23 +464,10 @@ li {
 }
 
 .avt-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
   padding: 0;
-  margin: auto;
 }
 
 .avt-column-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: flex-start;
   padding-left: 40px;
   margin: auto;
 }
@@ -594,17 +525,6 @@ li {
   padding: 25px;
 }
 
-.project-container {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
-  padding: 50px;
-  margin: auto;
-}
-
 .project-interface {
   width: 497px;
   height: 388px;
@@ -613,12 +533,6 @@ li {
 }
 
 .project-doc-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: flex-start;
   padding: 10px;
   margin: auto;
 }
@@ -632,14 +546,7 @@ li {
 }
 
 .information-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
   padding: 40px;
-  margin: auto;
 }
 
 .information-column {
@@ -652,14 +559,8 @@ li {
 }
 
 .column-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: flex-start;
   padding: 5px;
-  margin-top:  25px;
+  margin-top: 25px;
 }
 
 .information-text {
@@ -685,16 +586,7 @@ li {
   margin-top: 50px
 }
 
-.ti-facebook {
-  width: 15px;
-  height: 15px;
-  font-size: 15px;
-  color: #8BC34A;
-  padding-top: 95px;
-  padding-left: 20px;
-}
-
-.ti-youtube {
+.information-icon-detail {
   width: 15px;
   height: 15px;
   font-size: 15px;
@@ -703,20 +595,13 @@ li {
   padding-left: 10px;
 }
 
-.ti-linkedin {
-  width: 15px;
-  height: 15px;
-  font-size: 15px;
-  color: #8BC34A;
-  padding-top: 95px;
-  padding-left: 10px;
-}
-
-.ti-twitter-alt {
-  width: 15px;
-  height: 15px;
-  font-size: 15px;
-  color: #8BC34A;
-  padding-top: 95px;
-  padding-left: 10px;
+.container-by-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  padding: 50px;
+  margin: auto;
 }
