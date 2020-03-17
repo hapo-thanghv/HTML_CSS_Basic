@@ -181,15 +181,15 @@ li {
 }
 
 .ti-gift {
-  padding: 70px 220px 0 0;
+  padding: 70px 220px;
 }
 
 .ti-alarm-clock {
-  padding: 70px 0 0 0;
+  padding-top: 70px;
 }
 
 .ti-thumb-up {
-  padding: 70px 0 0 220px;
+  padding: 70px 220px;
 }
 
 .advantages-container {
@@ -290,21 +290,20 @@ li {
   background-color: #8BC34A;
   border: 2px solid white;
   align-self: center;
-  margin-left: 26px;
-  margin-top: 5px;
+  margin: 5px 28px;
 }
 
 .tools-num {
   color: white;
   size: 24px;
-  padding: 15px;
+  padding: 16px;
 }
 
 .tools-text {
   color: white;
   width: 90px;
   height: 40px;
-  padding-top: 30px;
+  padding: 30px 10px;
   size: 16px;
 }
 
@@ -424,10 +423,8 @@ li {
   width: 570px;
   max-height: 80px;
   font-size: 14px;
-  align-self: center;
   text-align: justify;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin: 0 35px;
 }
 
 .lppc-project {
@@ -492,6 +489,5 @@ li {
   height: 15px;
   font-size: 15px;
   color: #8BC34A;
-  padding-top: 95px;
-  padding-left: 10px;
+  padding: 95px 10px;
 }
