@@ -215,10 +215,9 @@ li {
   background-image: url(../BTHTML-CSS/image/hapoErp_2@2x.png);
 }
 
-.lppc-learnt-today{
+.lppc-learnt-today {
   height: 450px;
   background-color: white;
-  margin: auto;
 }
 
 .learnt-today-container {
@@ -468,7 +467,7 @@ li {
 
 .column-container {
   padding: 5px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .information-text {
@@ -489,5 +488,5 @@ li {
   height: 15px;
   font-size: 15px;
   color: #8BC34A;
-  padding: 95px 10px;
+  padding: 100px 10px;
 }
