@@ -104,7 +104,7 @@ li {
 
 .lppc-banner {
   height: 620px;
-  background-image: url(../BTHTML-CSS/image/banner.png);
+  background-image: url(./image/banner.png);
 }
 
 .banner-container {
@@ -218,7 +218,7 @@ li {
   width: 190px;
   height: 46px;
   align-self: flex-start;
-  background-image: url(../BTHTML-CSS/image/hapoErp_2@2x.png);
+  background-image: url(./image/hapoErp_2@2x.png);
   margin-top: 80px;
 }
 
@@ -226,7 +226,7 @@ li {
   width: 190px;
   height: 46px;
   align-self: flex-start;
-  background-image: url(../BTHTML-CSS/image/hapoErp_2@2x.png);
+  background-image: url(./image/hapoErp_2@2x.png);
 }
 
 .lppc-learnt-today {
@@ -241,7 +241,7 @@ li {
 .learnt-today-interface {
   width: 555px;
   height: 371px;
-  background-image: url(../BTHTML-CSS/image/til.png);
+  background-image: url(./image/til.png);
 }
 
 .learnt-today-doc {
@@ -270,7 +270,7 @@ li {
 .report-interface {
   width: 555px;
   height: 354px;
-  background-image: url(../BTHTML-CSS/image/dailyReport.png);
+  background-image: url(./image/dailyReport.png);
 }
 
 .lppc-tools {
@@ -344,7 +344,7 @@ li {
 .mem-diagrph {
   width: 497px;
   height: 388px;
-  background-image: url(../BTHTML-CSS/image/members.png);
+  background-image: url(./image/members.png);
 }
 
 .mem-doc-container {
@@ -368,7 +368,7 @@ li {
 .cus-interface {
   width: 555px;
   height: 354px;
-  background-image: url(../BTHTML-CSS/image/dailyReport.png);
+  background-image: url(./image/dailyReport.png);
 }
 
 .cus-doc-container {
@@ -377,7 +377,7 @@ li {
 
 .lppc-partner {
   height: 355px;
-  background-image: url(../BTHTML-CSS/image/rectangle3.png);
+  background-image: url(./image/rectangle3.png);
 }
 
 .partner-container {
@@ -459,7 +459,7 @@ li {
 .project-interface {
   width: 497px;
   height: 388px;
-  background-image: url(../BTHTML-CSS/image/members.png);
+  background-image: url(./image/members.png);
 }
 
 .project-doc-container {
