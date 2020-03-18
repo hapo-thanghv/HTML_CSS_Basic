@@ -23,6 +23,10 @@ li {
   flex-wrap: wrap;
 }
 
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
 .margin-auto {
   margin: auto;
 }
@@ -47,12 +51,13 @@ li {
   font-weight: bold;
 }
 
-.para-left-alignment {
-  margin-left: 15px;
+.para-alignment {
+  margin: 20px 15px;
 }
 
 .body-text-sologan {
   font-size: 14px;
+  padding-bottom: 25px;
 }
 
 .banner-text-sologan {
@@ -64,6 +69,14 @@ li {
   justify-content: center;
   align-items: stretch;
   align-content: center;
+}
+
+.section-title-container {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+  padding-bottom: 30px;
 }
 
 .container-by-row-rev {
@@ -117,7 +130,7 @@ li {
 }
 
 .banner-about-us-button {
-  padding: 10px;
+  padding: 11px;
   width: 80px;
   height: 15px;
   font-size: 12px;
@@ -133,10 +146,6 @@ li {
   color: #8BC34A;
   border-radius: 20px;
   border: 2px solid #8BC34A;
-}
-
-.banner-start-button {
-  padding: 40px;
 }
 
 .start-button {
@@ -171,7 +180,12 @@ li {
   width: 460px;
   height: 60px;
   font-size: 48px;
-  padding: 25px;
+  padding-right: 20px;
+}
+
+.section-text {
+  font-size: 48px;
+  margin-top: -5px;
 }
 
 .banner-icon-detail {
@@ -236,7 +250,7 @@ li {
 }
 
 .learnt-today-doc-container {
-  padding: 10px;
+  padding: 20px;
 }
 
 .lppc-report {
@@ -250,7 +264,7 @@ li {
 }
 
 .report-doc-container {
-  padding: 10px;
+  padding: 20px;
 }
 
 .report-interface {
@@ -272,6 +286,13 @@ li {
   padding: 20px;
   width: 120px;
   height: 160px;
+}
+
+.tools-icon-detail {
+  width: 460px;
+  height: 60px;
+  font-size: 48px;
+  margin: 25px;
 }
 
 .tools-border-top {
@@ -306,7 +327,7 @@ li {
   size: 16px;
 }
 
-.tools-icon-detail {
+.tools-icon {
   padding-top: 20px;
 }
 
@@ -327,7 +348,7 @@ li {
 }
 
 .mem-doc-container {
-  padding: 0;
+  padding: 20px;
 }
 
 .lppc-cus {
@@ -351,7 +372,7 @@ li {
 }
 
 .cus-doc-container {
-  padding: 10px;
+  padding: 20px;
 }
 
 .lppc-partner {
@@ -364,7 +385,6 @@ li {
   justify-content: flex-start;
   align-items: center;
   align-content: space-around;
-  padding: 20px;
   min-height: 320px;
 }
 
@@ -419,7 +439,7 @@ li {
 
 .partner-comment-text {
   padding: 0;
-  width: 570px;
+  width: 590px;
   max-height: 80px;
   font-size: 14px;
   text-align: justify;
