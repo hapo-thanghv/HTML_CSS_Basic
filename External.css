@@ -39,7 +39,7 @@ body {
 }
 
 .page-width {
-  width: 1366px;
+  width: 100%;
 }
 
 .text-white {
@@ -110,7 +110,7 @@ body {
 }
 
 .lppc-banner {
-  height: 620px;
+  height: 865px;
   background-image: url(./image/banner.png);
 }
 
@@ -384,7 +384,7 @@ body {
 }
 
 .lppc-partner {
-  height: 355px;
+  height: 555px;
   background-image: url(./image/rectangle3.png);
 }
 
