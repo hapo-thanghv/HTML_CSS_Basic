@@ -1,6 +1,8 @@
 p {
   color: black; 
   font-size: 13px;
+  text-align: justify;
+  line-height: 1.8;
 }
 
 li {
@@ -11,13 +13,11 @@ li {
   font-size: 10px;
   transform: .5s;
   padding: 1px;
-  border: 0;
+  border: none;
   border-radius: 100%;
 }
 
 body {
-    margin: 0;
-    padding: 0;
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -51,7 +51,8 @@ body {
 }
 
 .background-contain {
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .font-weight {
@@ -64,7 +65,7 @@ body {
 
 .body-text-sologan {
   font-size: 14px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .banner-text-sologan {
@@ -83,7 +84,13 @@ body {
   justify-content: flex-start;
   align-items: stretch;
   align-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.section-part {
+  width: 410px;
+  height: 315px;
+  margin: 100px 10px;
 }
 
 .container-by-row-rev {
@@ -91,7 +98,6 @@ body {
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  padding: 50px;
 }
 
 .container-by-column {
@@ -125,7 +131,6 @@ body {
 
 .banner-button {
   max-height: 60px;
-  margin: 0;
 }
 
 .banner-button-container {
@@ -133,7 +138,6 @@ body {
   justify-content: flex-end;
   align-items: stretch;
   align-content: stretch;
-  padding: 0;
 }
 
 .banner-about-us-button {
@@ -157,9 +161,9 @@ body {
 }
 
 .start-button {
-  padding: 20px;
+  padding: 10px;
   width: 140px;
-  height: 60px;  
+  height: 40px;  
   font-size: 16px;
   border-radius: 40px;
   box-shadow: 2px 2px 10px black;
@@ -168,7 +172,6 @@ body {
 .banner-advantages {
   padding: 10px;
   max-height: 100px;
-  margin: 0;
   font-weight: bold;
 }
 
@@ -184,16 +187,28 @@ body {
   align-self: center;
 }
 
-.section-icon-detail {
+.section-title-icon-detail {
   width: 460px;
   height: 60px;
   font-size: 48px;
   padding-right: 20px;
 }
 
+.section-text-icon-detail {
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  color: #8BC34A;
+}
+
 .section-text {
   font-size: 48px;
   margin-top: -5px;
+}
+
+.section-doc-box {
+  width: 370px;
+  margin: -15px 10px;
 }
 
 .banner-icon-detail {
@@ -222,6 +237,12 @@ body {
   max-height: 60px;
 }
 
+.lppc-section {
+  height: 580px;
+  background-color: white;
+  box-shadow: 2px 2px 10px black;
+}
+
 .lppc-webname {
   width: 190px;
   height: 46px;
@@ -237,61 +258,20 @@ body {
   background-image: url(./image/hapoErp_2@2x.png);
 }
 
-.lppc-learnt-today {
-  height: 450px;
-  background-color: white;
-}
-
-.learnt-today-container {
-  padding: 50px;
-}
-
 .learnt-today-interface {
-  width: 555px;
-  height: 371px;
   background-image: url(./image/til.png);
 }
 
-.learnt-today-doc {
-  width: 555px;
-  height: 371px;
-}
-
-.learnt-today-doc-container {
-  padding: 20px;
-}
-
-.lppc-report {
-  height: 450px;
-  background-color: white;
-}
-
-.report-doc {
-  width: 555px;
-  height: 354px;
-}
-
-.report-doc-container {
-  padding: 20px;
-}
-
 .report-interface {
-  width: 555px;
-  height: 354px;
   background-image: url(./image/dailyReport.png);
 }
 
 .lppc-tools {
-  height: 300px;
-  padding: 10px;
-}
-
-.tools-container {
-  padding: 50px;
+  height: 260px;
 }
 
 .tools {
-  padding: 20px;
+  padding: 32px;
   width: 120px;
   height: 160px;
 }
@@ -339,52 +319,16 @@ body {
   padding-top: 20px;
 }
 
-.lppc-mem {
-  height: 450px;
-  background-color: white;
-}
-
-.mem-doc {
-  width: 497px;
-  height: 388px;
-}
-
 .mem-diagrph {
-  width: 497px;
-  height: 388px;
   background-image: url(./image/members.png);
 }
 
-.mem-doc-container {
-  padding: 20px;
-}
-
-.lppc-cus {
-  height: 450px;
-  background-color: white;
-}
-
-.cus-container {
-  padding: 50px;
-}
-
-.cus-doc {
-  width: 555px;
-  height: 354px;
-}
-
 .cus-interface {
-  width: 555px;
-  height: 354px;
   background-image: url(./image/dailyReport.png);
 }
 
-.cus-doc-container {
-  padding: 20px;
-}
-
 .lppc-partner {
-  height: 555px;
+  height: 465px;
   background-image: url(./image/rectangle3.png);
 }
 
@@ -397,7 +341,6 @@ body {
 }
 
 .partner-title-text {
-  padding: 0;
   width: 400px;
   max-height: 60px;
   font-size: 48px;
@@ -405,7 +348,6 @@ body {
 }
 
 .partner-avt {
-  padding: 0;
   max-height: 135px;
   align-self: flex-start;
 }
@@ -418,35 +360,27 @@ body {
   height: 30px;
 }
 
-.avt-container {
-  padding: 0;
-}
-
 .avt-column-container {
   padding-left: 40px;
 }
 
 .partner-doc {
-  padding: 0;
   max-height: 120px;
 }
 
 .partner-mark-end {
-  padding: 0;
   color: grey;
   font-size:36px;
   align-self: flex-end;
 }
 
 .partner-mark-start {
-  padding: 0;
   color: grey;
   font-size: 36px;
   align-self: flex-start;
 }
 
 .partner-comment-text {
-  padding: 0;
   width: 590px;
   max-height: 80px;
   font-size: 14px;
@@ -454,38 +388,21 @@ body {
   margin: 0 35px;
 }
 
-.lppc-project {
-  height: 450px;
-  background-color: white;
-}
-
-.project-doc {
-  width: 497px;
-  height: 388px;
-}
-
 .project-interface {
-  width: 497px;
-  height: 388px;
   background-image: url(./image/members.png);
 }
 
-.project-doc-container {
-  padding: 10px;
-}
-
-.lppc-information {
-  padding: 0;
+.lppc-footer {
   color: #8BC34A;
   background-color: #39474E;
   max-height: 210px;
 }
 
-.information-container {
+.footer-container {
   padding: 40px;
 }
 
-.information-column {
+.footer-column {
   padding: 10px;
   max-width: 370px;
   height: 200px;
@@ -498,8 +415,7 @@ body {
   margin-top: 10px;
 }
 
-.information-text {
-  padding: 0;
+.footer-text {
   width: 80px;
   height: 40px;
   font-size: 12px;
@@ -507,11 +423,11 @@ body {
   color: #8BC34A;
 }
 
-.information-text-top-alignment {
+.footer-text-top-alignment {
   margin-top: 10px;
 }
 
-.information-icon-detail {
+.footer-icon-detail {
   width: 15px;
   height: 15px;
   font-size: 15px;
