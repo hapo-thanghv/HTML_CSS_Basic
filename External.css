@@ -117,6 +117,7 @@ body {
   align-items: stretch;
   align-content: stretch;
   min-height: 320px;
+  overflow: hidden;
 }
 
 .lppc-banner {
@@ -170,6 +171,7 @@ body {
   height: 40px;  
   font-size: 16px;
   border-radius: 30px;
+  box-shadow: none;
 }
 
 .banner-advantages {
@@ -243,7 +245,7 @@ body {
 
 .lppc-section {
   height: 600px;
-  box-shadow: 2px 2px 10px black;
+  box-shadow: 1px 1px 10px #C4C4C4;
 }
 
 .lppc-webname {
@@ -369,7 +371,7 @@ body {
   width: 10px;
   align-self: center;
   border: 1px solid white; 
-  margin: 0 5px;
+  margin: 15px 5px;
 }
 
 .partner-icon-next {
