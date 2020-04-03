@@ -24,7 +24,8 @@ p {
 }
 
 .web-name {
-  padding: 5% 0 50px;
+  height: 77px;
+  width: 256px;
 }
 
 .btn-outline-light {
@@ -72,39 +73,39 @@ p {
   background-color: unset;
 }
 
-.font-24 {
+.banner-advantages-font, .section-title-font {
+  font-size: 48px;
+}
+
+.tools-num-font {
   font-size: 24px; 
 }
 
-.font-36 {
+.tools-icon-font, .section-icon-font {
   font-size: 36px;
 }
 
-.font-30 {
+.font-30,  {
   font-size: 30px;
 }
 
-.font-16 {
+.tools-text-font {
   font-size: 16px;
 }
 
-.font-18 {
+.partner-text-font, .head-of-para-icon, .banner-sologan-font {
   font-size: 18px;
 }
 
-.font-14 {
+.sologan-font, .partner-name-font {
   font-size: 14px;
 }
 
-.font-13, p, html, body {
+.info-icon-font, .info-title-font, p, html, body {
   font-size: 13px;
 }
 
-.font-12 {
-  font-size: 12px;
-}
-
-.font-10 {
+.partner-pos-font, .info-text-font {
   font-size: 10px;
 }
 
@@ -135,8 +136,9 @@ p {
   margin: -20px 0 0 28px;
 }
 
-.head-of-para-icon-color {
+.head-of-para-icon {
   color: #8BC34A;
+  font-size: 18px;
 }
 
 .lp-partner {
@@ -164,7 +166,7 @@ p {
 
 .partner-mark {
   color: grey;
-  font-size:60px;
+  font-size:72px;
 }
 
 .lp-footer {
@@ -172,31 +174,72 @@ p {
   background-color: #39474E;
 }
 
+@media (max-width: 1024px) {
+.web-name {
+  height: 43px;
+  width: 144px;
+}
+
+  .banner-advantages-font {
+    font-size: 24px;
+  }
+
+  .banner-sologan-font {
+    font-size: 14px;
+  }
+
+  .section-icon-font {
+    font-size: 30px;
+  }
+
+  .section-title-font {
+    font-size: 36px;
+  }
+
+  .partner-mark {
+    font-size: 64px;
+  }
+}
+
 @media (max-width: 576px) {
-  .font-24 {
-    font-size: 65%;
-  }
-  .font-36 {
-    font-size: 75%;
-  }
-  .font-30 {
-    font-size: 65%;
-  }
-  .font-14 {
-  font-size: 65%;
+.web-name {
+  height: 29px;
+  width: 96px;
 }
 
-@media (max-width: 768px) {
-}
+  .banner-advantages-font {
+    font-size: 18px;
+  }
 
-@media (max-width: 1366px) {
-  .font-24 {
-    font-size: 150%;
+  .banner-sologan-font {
+    font-size: 9px;
   }
-  .font-36 {
-    font-size: 150%;
+
+  .section-icon-font {
+    font-size: 20px;
   }
-  .font-30 {
-    font-size: 150%;
+
+  .section-title-font {
+    font-size: 24px;
+  }
+
+  .sologan-font {
+    font-size: 13px;
+  }
+
+  .tools-text-font {
+    font-size: 14px;
+  }
+
+  .partner-mark {
+    font-size: 48px;
+  }
+
+  .partner-text-font {
+    font-size: 14px;
+  }
+
+  .info-title-font {
+    font-size: 12px;
   }
 }
