@@ -4,24 +4,11 @@ $medium-green:#8BC34A;
 $light-green: #B4EC51;
 $indigo-blue: #39474E;
 
-.info-icon-font {
-  font-size: 13px;
-}
-
-.info-title-font {
-  @extend .info-icon-font;
-}
-
-html {
+html, body {
   width: 100%;
   font-family: 'Roboto';
   color: #222;
   font-weight: bold;
-  @extend .info-icon-font;
-}
-
-body {
-  @extend html;
 }
 
 p {
@@ -30,7 +17,6 @@ p {
   line-height: 1.8;
   display: block;
   font-weight: bold;
-  @extend .info-icon-font;
 }
 
 .background-contain {
@@ -77,48 +63,32 @@ p {
   }
 }
 
-.btn-primary {
+.btn-primary, .tools {
   background: linear-gradient(to right, $dark-green, $light-green); 
 }
 
-.tools {
-  @extend .btn-primary;
-}
-
-.banner-advantages-font {
+.banner-advantages-font, .section-title-font {
   font-size: 48px;
-}
-
-.section-title-font {
-  @extend .banner-advantages-font;
 }
 
 .tools-num-font {
   font-size: 24px; 
 }
 
-.tools-icon-font {
+.tools-icon-font, .section-icon-font {
   font-size: 36px;
 }
 
-.section-icon-font {
-  @extend .tools-icon-font;
+.font-30,  {
+  font-size: 30px;
 }
 
 .tools-text-font {
   font-size: 16px;
 }
 
-.partner-text-font {
+.partner-text-font, .head-of-para-icon, .banner-sologan-font {
   font-size: 18px;
-}
-
-.head-of-para-icon {
-  @extend .partner-text-font;
-}
-
-.banner-sologan-font {
-  @extend .partner-text-font;
 }
 
 .head-of-para-icon {
@@ -126,20 +96,16 @@ p {
   font-size: 18px;
 }
 
-.sologan-font {
+.sologan-font, .partner-name-font {
   font-size: 14px;
 }
 
-.partner-name-font {
-  @extend .sologan-font;
+.info-icon-font, .info-title-font, p, html, body {
+  font-size: 13px;
 }
 
-.partner-pos-font {
+.partner-pos-font, .info-text-font {
   font-size: 10px;
-}
-
-.info-text-font {
-  @extend .partner-pos-font;
 }
 
 .white {

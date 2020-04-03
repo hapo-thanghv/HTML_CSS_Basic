@@ -1,7 +1,3 @@
-.info-icon-font, .info-title-font, html, body, p {
-  font-size: 13px;
-}
-
 html, body {
   width: 100%;
   font-family: 'Roboto';
@@ -52,12 +48,12 @@ p {
   border: 2px solid #429321;
 }
 
-.btn-primary, .tools {
+.btn-primary {
   font-size: 16px;
   border-radius: 20px;
   border: 2px solid #8BC34A;
 }
-.btn-primary:hover, .tools:hover {
+.btn-primary:hover {
   border: 2px solid #429321;
 }
 
@@ -77,6 +73,10 @@ p {
   font-size: 36px;
 }
 
+.font-30 {
+  font-size: 30px;
+}
+
 .tools-text-font {
   font-size: 16px;
 }
@@ -92,6 +92,10 @@ p {
 
 .sologan-font, .partner-name-font {
   font-size: 14px;
+}
+
+.info-icon-font, .info-title-font, p, html, body {
+  font-size: 13px;
 }
 
 .partner-pos-font, .info-text-font {
@@ -163,11 +167,11 @@ p {
     width: 144px;
   }
 
-  .btn-primary, .tools {
+  .btn-primary {
     font-size: 14px;
   }
 
-  .banner-advantages-font, .section-title-font {
+  .banner-advantages-font {
     font-size: 24px;
   }
 
@@ -193,11 +197,11 @@ p {
     width: 96px;
   }
 
-  .btn-primary, .tools {
+  .btn-primary {
     font-size: 14px;
   }
 
-  .banner-advantages-font, .section-title-font {
+  .banner-advantages-font {
     font-size: 18px;
   }
 
@@ -213,7 +217,7 @@ p {
     font-size: 24px;
   }
 
-  .sologan-font, .partner-name-font {
+  .sologan-font {
     font-size: 13px;
   }
 
@@ -225,7 +229,7 @@ p {
     font-size: 48px;
   }
 
-  .partner-text-font, .head-of-para-icon, .banner-sologan-font {
+  .partner-text-font {
     font-size: 14px;
   }
 
