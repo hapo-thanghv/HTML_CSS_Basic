@@ -1,0 +1,279 @@
+$dark-black: #222;
+$dark-green: #429321;
+$medium-green:#8BC34A;
+$light-green: #B4EC51;
+$indigo-blue: #39474E;
+
+.info-icon-font {
+  font-size: 13px;
+}
+
+.info-title-font {
+  @extend .info-icon-font;
+}
+
+html {
+  width: 100%;
+  font-family: 'Roboto';
+  color: #222;
+  font-weight: bold;
+  @extend .info-icon-font;
+}
+
+body {
+  @extend html;
+}
+
+p {
+  color: black; 
+  text-align: justify;
+  line-height: 1.8;
+  display: block;
+  font-weight: bold;
+  @extend .info-icon-font;
+}
+
+.background-contain {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-image: url(./image/banner.png);
+}
+
+.web-name {
+  height: 77px;
+  width: 256px;
+}
+
+.btn-outline-light {
+  font-size: 12px;
+  background-color: unset;
+  border: none;
+  color: black;
+  &:hover {
+  	color: $dark-green;
+  }
+}
+
+.btn-outline-secondary {
+  font-size: 12px;
+  color: $medium-green;
+  border-radius: 30px;
+  border: 2px solid $medium-green;
+  &:hover {
+  	color: $dark-green;
+  	border: 2px solid $dark-green;
+  }
+}
+
+.btn-primary {
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid $medium-green;
+  &:hover {
+  	border: 2px solid $dark-green;
+  }
+}
+
+.btn-primary {
+  background: linear-gradient(to right, $dark-green, $light-green); 
+}
+
+.tools {
+  @extend .btn-primary;
+}
+
+.banner-advantages-font {
+  font-size: 48px;
+}
+
+.section-title-font {
+  @extend .banner-advantages-font;
+}
+
+.tools-num-font {
+  font-size: 24px; 
+}
+
+.tools-icon-font {
+  font-size: 36px;
+}
+
+.section-icon-font {
+  @extend .tools-icon-font;
+}
+
+.tools-text-font {
+  font-size: 16px;
+}
+
+.partner-text-font {
+  font-size: 18px;
+}
+
+.head-of-para-icon {
+  @extend .partner-text-font;
+}
+
+.banner-sologan-font {
+  @extend .partner-text-font;
+}
+
+.head-of-para-icon {
+  color: $medium-green;
+  font-size: 18px;
+}
+
+.sologan-font {
+  font-size: 14px;
+}
+
+.partner-name-font {
+  @extend .sologan-font;
+}
+
+.partner-pos-font {
+  font-size: 10px;
+}
+
+.info-text-font {
+  @extend .partner-pos-font;
+}
+
+.white {
+  color: white;
+}
+
+.today-i-learnt-interface {
+  background-image: url("./image/til.png");
+}
+
+@mixin tools-border($width, $height) {
+	width: $width;
+	height: $height;
+  border-radius: 100%;
+  border: 2px solid white;
+  align-self: center;
+}
+
+.tools-border-top {
+  padding-top: 30px;
+  @include tools-border(100px, 100px);
+}
+
+.tools-border-bottom {
+  margin: -20px 0 0 28px;
+  background-color: $medium-green;
+  @include tools-border(45px, 45px);
+}
+
+.lp-partner {
+  background-image: url(./image/rectangle3.png);
+}
+
+@mixin partner-icon($background-color) {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  align-self: center;
+  border: 1px solid white;
+  background-color: $background-color
+}
+
+.partner-icon-first {
+  @include partner-icon(white);
+}
+
+.partner-icon-next {
+  @include partner-icon(unset);
+}
+
+.partner-mark {
+  color: grey;
+  font-size:72px;
+}
+
+.lp-footer {
+  color: $medium-green;
+  background-color: $indigo-blue;
+}
+
+@media (max-width: 1024px) {
+  .web-name {
+  	height: 43px;
+  	width: 144px;
+	}
+
+	.btn-primary {
+		font-size: 14px;
+	}
+
+  .banner-advantages-font {
+    font-size: 24px;
+  }
+
+  .banner-sologan-font {
+    font-size: 14px;
+  }
+
+  .section-icon-font {
+    font-size: 30px;
+  }
+
+  .section-title-font {
+    font-size: 36px;
+  }
+
+  .partner-mark {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 576px) {
+	.web-name {
+ 	  height: 29px;
+	  width: 96px;
+	}
+
+	.btn-primary {
+		font-size: 14px;
+	}
+
+  .banner-advantages-font {
+    font-size: 18px;
+  }
+
+  .banner-sologan-font {
+    font-size: 9px;
+  }
+
+  .section-icon-font {
+    font-size: 20px;
+  }
+
+  .section-title-font {
+    font-size: 24px;
+  }
+
+  .sologan-font {
+    font-size: 13px;
+  }
+
+  .tools-text-font {
+    font-size: 14px;
+  }
+
+  .partner-mark {
+    font-size: 48px;
+  }
+
+  .partner-text-font {
+    font-size: 14px;
+  }
+
+  .info-title-font {
+    font-size: 12px;
+  }
+}
