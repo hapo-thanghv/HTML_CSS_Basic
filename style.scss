@@ -1,6 +1,7 @@
 @import "variable";
 
-html, body {
+html, 
+body {
   width: 100%;
   font-family: 'Roboto';
   color: #222;
@@ -59,7 +60,8 @@ p {
   }
 }
 
-.btn-primary, .tools {
+.btn-primary, 
+.tools {
   background: linear-gradient(to right, $dark-green, $light-green); 
 }
 
@@ -103,7 +105,9 @@ p {
 
 .info-icon-font, 
 .info-title-font, 
-p, html, body {
+p, 
+html, 
+body {
   font-size: 13px;
 }
 
