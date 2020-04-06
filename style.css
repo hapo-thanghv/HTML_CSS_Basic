@@ -61,7 +61,8 @@ p {
   background: linear-gradient(to right, #429321, #B4EC51);
 }
 
-.banner-advantages-font, .section-title-font {
+.banner-advantages-font,
+.section-title-font {
   font-size: 48px;
 }
 
@@ -69,7 +70,8 @@ p {
   font-size: 24px;
 }
 
-.tools-icon-font, .section-icon-font {
+.tools-icon-font,
+.section-icon-font {
   font-size: 36px;
 }
 
@@ -81,7 +83,9 @@ p {
   font-size: 16px;
 }
 
-.partner-text-font, .head-of-para-icon, .banner-sologan-font {
+.partner-text-font,
+.head-of-para-icon,
+.banner-sologan-font {
   font-size: 18px;
 }
 
@@ -90,15 +94,19 @@ p {
   font-size: 18px;
 }
 
-.sologan-font, .partner-name-font {
+.sologan-font,
+.partner-name-font {
   font-size: 14px;
 }
 
-.info-icon-font, .info-title-font, p, html, body {
+.info-icon-font,
+.info-title-font,
+p, html, body {
   font-size: 13px;
 }
 
-.partner-pos-font, .info-text-font {
+.partner-pos-font,
+.info-text-font {
   font-size: 10px;
 }
 
