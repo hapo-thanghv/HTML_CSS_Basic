@@ -1,0 +1,253 @@
+html,
+body {
+  width: 100%;
+  font-family: 'Roboto';
+  color: #222;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  text-align: justify;
+  line-height: 1.8;
+  display: block;
+  font-weight: bold;
+}
+
+.background-contain {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-image: url(./image/banner.png);
+}
+
+.web-name {
+  height: 77px;
+  width: 256px;
+}
+
+.btn-outline-light {
+  font-size: 12px;
+  background-color: unset;
+  border: none;
+  color: black;
+}
+.btn-outline-light:hover {
+  color: #429321;
+}
+
+.btn-outline-secondary {
+  font-size: 12px;
+  color: #8BC34A;
+  border-radius: 30px;
+  border: 2px solid #8BC34A;
+}
+.btn-outline-secondary:hover {
+  color: #429321;
+  border: 2px solid #429321;
+}
+
+.btn-primary {
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid #8BC34A;
+}
+.btn-primary:hover {
+  border: 2px solid #429321;
+}
+
+.btn-primary,
+.tools {
+  background: linear-gradient(to right, #429321, #B4EC51);
+}
+
+.banner-advantages-font,
+.section-title-font {
+  font-size: 48px;
+}
+
+.tools-num-font {
+  font-size: 24px;
+}
+
+.tools-icon-font,
+.section-icon-font {
+  font-size: 36px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.tools-text-font {
+  font-size: 16px;
+}
+
+.partner-text-font,
+.head-of-para-icon,
+.banner-sologan-font {
+  font-size: 18px;
+}
+
+.head-of-para-icon {
+  color: #8BC34A;
+  font-size: 18px;
+}
+
+.sologan-font,
+.partner-name-font {
+  font-size: 14px;
+}
+
+.info-icon-font,
+.info-title-font,
+p,
+html,
+body {
+  font-size: 13px;
+}
+
+.partner-pos-font,
+.info-text-font {
+  font-size: 10px;
+}
+
+.white {
+  color: white;
+}
+
+.today-i-learnt-interface {
+  background-image: url("./image/til.png");
+}
+
+.tools-border-top {
+  padding-top: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+  align-self: center;
+}
+
+.tools-border-bottom {
+  margin: -20px 0 0 28px;
+  background-color: #8BC34A;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: 2px solid white;
+  align-self: center;
+}
+
+.lp-partner {
+  background-image: url(./image/rectangle3.png);
+}
+
+.partner-icon-first {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  align-self: center;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.partner-icon-next {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  align-self: center;
+  border: 1px solid white;
+  background-color: unset;
+}
+
+.partner-mark {
+  color: grey;
+  font-size: 72px;
+}
+
+.lp-footer {
+  color: #8BC34A;
+  background-color: #39474E;
+}
+
+@media (max-width: 1024px) {
+  .web-name {
+    height: 43px;
+    width: 144px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+  }
+
+  .banner-advantages-font {
+    font-size: 24px;
+  }
+
+  .banner-sologan-font {
+    font-size: 14px;
+  }
+
+  .section-icon-font {
+    font-size: 30px;
+  }
+
+  .section-title-font {
+    font-size: 36px;
+  }
+
+  .partner-mark {
+    font-size: 64px;
+  }
+}
+@media (max-width: 576px) {
+  .web-name {
+    height: 29px;
+    width: 96px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+  }
+
+  .banner-advantages-font {
+    font-size: 18px;
+  }
+
+  .banner-sologan-font {
+    font-size: 9px;
+  }
+
+  .section-icon-font {
+    font-size: 20px;
+  }
+
+  .section-title-font {
+    font-size: 24px;
+  }
+
+  .sologan-font {
+    font-size: 13px;
+  }
+
+  .tools-text-font {
+    font-size: 14px;
+  }
+
+  .partner-mark {
+    font-size: 48px;
+  }
+
+  .partner-text-font {
+    font-size: 14px;
+  }
+
+  .info-title-font {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
