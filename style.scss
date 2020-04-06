@@ -35,7 +35,7 @@ p {
   border: none;
   color: black;
   &:hover {
-  	color: $dark-green;
+    color: $dark-green;
   }
 }
 
@@ -45,8 +45,8 @@ p {
   border-radius: 30px;
   border: 2px solid $medium-green;
   &:hover {
-  	color: $dark-green;
-  	border: 2px solid $dark-green;
+    color: $dark-green;
+    border: 2px solid $dark-green;
   }
 }
 
@@ -55,7 +55,7 @@ p {
   border-radius: 20px;
   border: 2px solid $medium-green;
   &:hover {
-  	border: 2px solid $dark-green;
+    border: 2px solid $dark-green;
   }
 }
 
@@ -113,8 +113,8 @@ p {
 }
 
 @mixin tools-border($width, $height) {
-	width: $width;
-	height: $height;
+  width: $width;
+  height: $height;
   border-radius: 100%;
   border: 2px solid white;
   align-self: center;
