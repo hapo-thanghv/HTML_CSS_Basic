@@ -50,9 +50,12 @@ p {
 }
 
 .btn-primary {
+  width: 144px;
+  height: 45px;
   font-size: 16px;
   border-radius: 20px;
   border: none;
+  font-weight: bold;
 }
 
 .btn-primary,
