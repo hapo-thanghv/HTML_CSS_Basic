@@ -19,7 +19,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.jumbotron {
+.lp-banner {
   background-image: url(./image/banner.png);
 }
 
@@ -52,10 +52,7 @@ p {
 .btn-primary {
   font-size: 16px;
   border-radius: 20px;
-  border: 2px solid #8BC34A;
-}
-.btn-primary:hover {
-  border: 2px solid #429321;
+  border: none;
 }
 
 .btn-primary,
@@ -73,7 +70,8 @@ p {
 }
 
 .tools-icon-font,
-.section-icon-font {
+.section-icon-font,
+.banner-advantages-text-font {
   font-size: 36px;
 }
 
@@ -164,6 +162,7 @@ body {
 }
 
 .partner-mark {
+  line-height: 0.8;
   color: grey;
   font-size: 72px;
 }
@@ -173,7 +172,7 @@ body {
   background-color: #39474E;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
   .web-name {
     height: 43px;
     width: 144px;
@@ -184,6 +183,10 @@ body {
   }
 
   .banner-advantages-font {
+    font-size: 24px;
+  }
+
+  .banner-advantages-text-font {
     font-size: 24px;
   }
 
@@ -214,6 +217,10 @@ body {
   }
 
   .banner-advantages-font {
+    font-size: 18px;
+  }
+
+  .banner-advantages-text-font {
     font-size: 18px;
   }
 
