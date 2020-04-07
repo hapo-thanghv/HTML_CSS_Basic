@@ -103,7 +103,10 @@ p {
 }
 
 .info-icon-font,
-.info-title-font,
+.info-title-font {
+  font-size: 12px;
+}
+
 p,
 html,
 body {
@@ -253,10 +256,6 @@ body {
 
   .partner-text-font {
     font-size: 14px;
-  }
-
-  .info-title-font {
-    font-size: 12px;
   }
 }
 
